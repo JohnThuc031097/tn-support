@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+@tailwind base;
+
+@layer base {
+  html {
+    @apply text-slate-800
+  }
+  html.dark {
+    @apply text-slate-50;
+    @apply bg-slate-800;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
